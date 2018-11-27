@@ -1,7 +1,6 @@
 const cardsColor = ["red", "red", "green", "green", "blue", "blue", "brown", "brown", "yellow", "yellow", "gray", "gray", "cadetblue", "cadetblue", "violet", "violet", "lightgreen", "lightgreen", "orange", "orange"];
 
-let cards = document.querySelectorAll("div");
-cards = [...cards]; //20 x div
+let cards = [...document.querySelectorAll("div")];
 
 const startTime = new Date().getTime();
 
